@@ -40,7 +40,14 @@ return {
     -- enable servers that you already have installed without mason
     servers = {
       -- "pyright"
-      "angularls"
+      "angularls",
+      "eslint",
+      "emmet_language_server",
+      "jsonls",
+      "ts_ls",
+      "somesass_ls",
+      "cssls",
+      "html"
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
