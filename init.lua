@@ -17,3 +17,7 @@ end
 
 require "lazy_setup"
 require "polish"
+
+-- added configs, these are not plugins, but custom created scripts
+local disable_motions = require("lua.user.disabled_motions")
+disable_motions.disable_motions()
