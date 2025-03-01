@@ -47,7 +47,8 @@ return {
       "ts_ls",
       "somesass_ls",
       "cssls",
-      "html"
+      "html",
+      "lua_ls"
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
