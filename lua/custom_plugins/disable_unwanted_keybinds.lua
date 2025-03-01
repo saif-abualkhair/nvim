@@ -75,7 +75,7 @@ function M.disable_unwanted_keybinds()
     vim.keymap.set("n", key, "<Nop>", { noremap = true, silent = true })
     vim.keymap.set("v", key, "<Nop>", { noremap = true, silent = true })
   end
-
+  
 end
 
 return M;

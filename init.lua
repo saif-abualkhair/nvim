@@ -19,7 +19,8 @@ require "lazy_setup"
 require "polish"
 
 -- added configs, these are not plugins, but custom created scripts
-require("custom_plugins.disable_motions").disable_unwanted_keybinds();
+local disable_motions_plugin = require("custom_plugins.disable_unwanted_keybinds");
+disable_motions_plugin.disable_unwanted_keybinds();
 
 --custom plugin that I am creating
 --[[ local commandPallet = require("custom_plugins.command_pallet"); ]]

@@ -1,6 +1,4 @@
-local M = {}
-
--- Updated commands table with terminal commands
+local M = {}-- Updated commands table with terminal commands
 local commands = {
     {
         text = ">git pull", -- What the user types
