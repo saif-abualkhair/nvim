@@ -12,8 +12,8 @@ local fundamental_keys = {
   "r",  -- Replace a single character
   "R",  -- Enter Replace mode
   -- "v",  -- Enter Visual mode
-  "V",  -- Enter Visual Line mode
-  "<C-v>", -- Enter Visual Block mode
+  -- "V",  -- Enter Visual Line mode
+  -- "<C-v>", -- Enter Visual Block mode
   "x",  -- Delete character under cursor
   "X",  -- Delete character before cursor
   -- "d",  -- Delete (operator, requires a motion)

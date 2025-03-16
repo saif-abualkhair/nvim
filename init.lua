@@ -17,11 +17,14 @@ end
 
 require "lazy_setup"
 require "polish"
+require "user.dap"
 
 -- added configs, these are not plugins, but custom created scripts
-local disable_motions_plugin = require("custom_plugins.disable_unwanted_keybinds");
-disable_motions_plugin.disable_unwanted_keybinds();
+local disable_motions_plugin = require "custom_plugins.disable_unwanted_keybinds"
+disable_motions_plugin.disable_unwanted_keybinds()
+
+local custom_keymaps = require "custom_plugins.custom_keymaps"
+custom_keymaps.go_run_current_file()
 
 --custom plugin that I am creating
 --[[ local commandPallet = require("custom_plugins.command_pallet"); ]]
-
